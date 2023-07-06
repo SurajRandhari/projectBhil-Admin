@@ -1,0 +1,9 @@
+.faq{
+    display: flex;
+    
+}
+
+    .faqcontainer{
+        background-color: white;
+        flex: 5;
+    }

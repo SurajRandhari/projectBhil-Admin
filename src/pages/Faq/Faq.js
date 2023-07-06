@@ -152,7 +152,7 @@ const Faq = () => {
     // </div>
 
     <div>
-      hiii
+      hiii bbvnvmbnmbnm,,
     </div>
   );
 };

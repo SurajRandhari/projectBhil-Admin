@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from './pages/Login/Login';
 import MainLayout from './components/MainLayout/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
+import Banner from './pages/banner/Banner';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/admin" element={<MainLayout />} >
           <Route index element={<Dashboard/>} />
+          <Route path="banner" element={<Banner/>} />
           </Route>
         </Routes>
       </Router>

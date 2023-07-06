@@ -1,0 +1,12 @@
+/* .zooom img:hover{
+    transition: transform .5s ease;
+    scale: 1.5;
+} */
+#zoom img:hover{
+    scale: 1.5;
+}
+
+#zoom-div{
+    transition: all ease 0.5s ;
+    /* scale: 1.5; */
+}

@@ -1,0 +1,10 @@
+ .banner{
+     display: flex;
+    } 
+    
+
+
+     .bannercontainer{
+         background-color: white;
+         flex: 5;
+     } 

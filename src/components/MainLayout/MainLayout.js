@@ -1,10 +1,10 @@
-// import "./MainLayout.css";
+import "./MainLayout.css";
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
-  UploadOutlined,
-  UserOutlined,
-  VideoCameraOutlined,
+  // UploadOutlined,
+  // UserOutlined,
+  // VideoCameraOutlined,
 } from "@ant-design/icons";
 import { Outlet } from "react-router-dom";
 import { Button, Layout, Menu, theme } from "antd";
@@ -38,7 +38,7 @@ const MainLayout = () => {
           mode="inline"
           defaultSelectedKeys={[""]}
           onClick={({ key }) => {
-            if (key == "signout") {
+            if (key === "signout") {
               /* empty */
             } else {
               navigate(key);

@@ -1,0 +1,22 @@
+
+.top{
+    height: 80px;
+    display: flex;
+   
+    border: 1px solid gray;
+}
+
+
+    .logo1{
+        font-style: 17.5px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 10px;
+        color: aliceblue;
+    }
+
+ 
+
+
+    

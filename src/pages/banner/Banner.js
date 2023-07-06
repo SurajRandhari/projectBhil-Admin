@@ -9,18 +9,7 @@ const Banner = () => {
     <div className="banner">
   
        {/* ------------------------------------------------------------------------ */}
-      hiii
-      {/* ------------------------------------------------------------------------ */}
-
-      {/* <Card/> */}
-    </div>
-  )
-}
-
- 
-
-export default Banner
-{/* <div className="page-breadcrumb">
+   <div className="page-breadcrumb">
 <div className="row">
     <div className="col-12 d-flex no-block align-items-center">
         <h4 className="page-title">Banner</h4>
@@ -46,4 +35,14 @@ export default Banner
         </nav>
     </div>
 </div>
-</div> */}
+</div>
+      {/* ------------------------------------------------------------------------ */}
+
+      <Card/>
+    </div>
+  )
+}
+
+ 
+
+export default Banner

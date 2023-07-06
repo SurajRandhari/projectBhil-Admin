@@ -36,7 +36,7 @@ const Footer = () => {
                     </a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                       Footer                       
+                       Footerr                       
                     </li>
                  </ol>
               </nav>

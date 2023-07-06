@@ -5,6 +5,7 @@ import Login from './pages/Login/Login';
 import MainLayout from './components/MainLayout/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Banner from './pages/banner/Banner';
+import Blog from './pages/blog/Blog';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/admin" element={<MainLayout />} >
-          <Route index element={<Dashboard/>} />
-          {/* <Route path="banner" element={<Banner/>} /> */}
+            <Route index element={<Dashboard/>} />
+            <Route path="banner" element={<Banner/>} />
+            <Route path='blog' element={<Blog/>} />
+          
           </Route>
         </Routes>
       </Router>

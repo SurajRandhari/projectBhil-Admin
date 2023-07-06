@@ -6,6 +6,7 @@ import MainLayout from './components/MainLayout/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Banner from './pages/banner/Banner';
 import Blog from './pages/blog/Blog';
+import Faq from './pages/Faq/Faq';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<Dashboard/>} />
             <Route path="banner" element={<Banner/>} />
             <Route path='blog' element={<Blog/>} />
+            {/* <Route path='Faq' element={<Faq/>} /> */}
           
           </Route>
         </Routes>
